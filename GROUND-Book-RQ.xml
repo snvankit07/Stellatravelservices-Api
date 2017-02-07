@@ -1,0 +1,40 @@
+<soapenv:Envelope xmlns:ns="http://stellatravelgateway.stellatravelservices.co.uk" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gro="http://stellatravelgateway.stellatravelservices.co.uk/GroundService">
+<soapenv:Header>
+<AuthHeader xmlns="http://stellatravelgateway.stellatravelservices.co.uk">baa31848-a7d7-441c-88c2-5f68e1deeb23</AuthHeader>
+</soapenv:Header>
+<soapenv:Body>
+<gro:Book>
+<!--Optional:-->
+<gro:groundBookingDetails>
+<!--Optional:-->
+<gro:HotelSearchResultSetID>0f101382-1a7b-4181-8d31-645fd6e851a8</gro:HotelSearchResultSetID>
+<!--Optional:-->
+<gro:HotelBookings>
+<!--Zero or more repetitions:-->
+<gro:HotelBooking HotelSearchResultSetID="8802e594-bfaa-4a76-8dc9-775d8257118d" HotelResultItemID="0" RoomResultItemID="0" SpecialRequests="">
+<gro:SuccessfullySubmitted>false</gro:SuccessfullySubmitted>
+<!--Optional:-->
+<gro:ClientDetails>
+<!--Zero or more repetitions:-->
+<gro:GroundBookingClientDetails ClientType="Adult" Title="Mr" FirstName="dan" Surname="test">
+<gro:Sex>Male</gro:Sex>
+<gro:DOB>1981-01-01</gro:DOB>
+</gro:GroundBookingClientDetails>
+</gro:ClientDetails>
+</gro:HotelBooking>
+</gro:HotelBookings>           
+<!--Optional:-->
+<gro:ClientDetails>
+<!--Zero or more repetitions:-->
+<gro:GroundBookingClientDetails ClientType="Adult" Title="Ms" FirstName="kelly" Surname="test">
+<gro:Sex>Female</gro:Sex>
+<gro:DOB>1981-01-01</gro:DOB>
+</gro:GroundBookingClientDetails>
+</gro:ClientDetails>
+<!--Optional:-->                        
+<gro:UKDepartureDate>2017-05-07T14:06:33.0460714+01:00</gro:UKDepartureDate>
+<gro:IgnoreDuplicate>true</gro:IgnoreDuplicate>
+</gro:groundBookingDetails>
+</gro:Book>
+</soapenv:Body>
+</soapenv:Envelope>

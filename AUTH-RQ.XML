@@ -1,0 +1,9 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<Authenticate xmlns="http://stellatravelgateway.stellatravelservices.co.uk/DirectoryService">
+			<authenticateRequest BranchCode="M199X" UserName="APIUser" Password="fusi99x" Application="ExternalAPI">
+				<BranchID>3</BranchID>
+			</authenticateRequest>
+		</Authenticate>
+	</s:Body>
+</s:Envelope>

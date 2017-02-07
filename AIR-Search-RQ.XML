@@ -1,0 +1,29 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Header>
+		<AuthHeader xmlns="http://stellatravelgateway.stellatravelservices.co.uk">10ff9570-7ec0-4da8-a295-31c54aeb2951</AuthHeader>
+	</s:Header>
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<Search xmlns="http://stellatravelgateway.stellatravelservices.co.uk/AirService">
+			<request DirectFlightsOnly="false" ReturnIncompleteResults="false" ChildPaxCount="1" InfantPaxCount="1" AdultPaxCount="2" SearchType="Availability" FareType="All" FlexiDays="0" InfantWithSeatPaxCount="0" SortOrder="Price" CabinClass="All" SearchSource="Default">
+				<SelectedAirlines/>
+				<ChildAges>
+					<int>7</int>
+					<int>1</int>
+				</ChildAges>
+				<MaximumConnectionTimeMins xsi:nil="true"/>
+				<MaxResultsPerAirline xsi:nil="true"/>
+				<JourneyDetails>
+					<JourneyDetail DepartureDateTime="2017-04-07T00:00:00" DeparturePoint="LON" DeparturePointIsCity="false" DestinationPoint="BKK" DestinationPointIsCity="false" ViaPointAirportCode=""/>
+					<JourneyDetail DepartureDateTime="2017-04-14T00:00:00" DeparturePoint="BKK" DeparturePointIsCity="false" DestinationPoint="LON" DestinationPointIsCity="false" ViaPointAirportCode=""/>
+				</JourneyDetails>
+				<MaxResults xsi:nil="true"/>
+				<IncludePriorDepartues>false</IncludePriorDepartues>
+				<SessionID>e754a6ad-71cb-4e15-b4fb-e5e360f6928b</SessionID>
+				<AdultAges>
+					<int>30</int>
+					<int>14</int>
+				</AdultAges>
+			</request>
+		</Search>
+	</s:Body>
+</s:Envelope>

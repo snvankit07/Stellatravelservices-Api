@@ -1,0 +1,13 @@
+Before progressing with the book stage can I please refer you to our external test policy attached. For ground bookings we request that only the test hotel is used,  CountryCode="6161" CityCode="61616161" and that all other rules in the test booking policy are adhered to.
+
+<soapenv:Envelope xmlns:ns="http://stellatravelgateway.stellatravelservices.co.uk" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gro="http://stellatravelgateway.stellatravelservices.co.uk/GroundService">
+   <soapenv:Header>
+                <AuthHeader xmlns="http://stellatravelgateway.stellatravelservices.co.uk">e90ac1be-1e75-412b-9385-8a55c89c2664</AuthHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <gro:GetCancellationPolicies>
+         <gro:cancellationPolicyRequest ResultSetID="8a87d969-6dba-4a9f-b8d0-233454d6817d" HotelResultItemID="0" RoomResultItemID="0">
+         </gro:cancellationPolicyRequest>
+      </gro:GetCancellationPolicies>
+   </soapenv:Body>
+</soapenv:Envelope>

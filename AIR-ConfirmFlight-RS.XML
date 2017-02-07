@@ -1,0 +1,59 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<ConfirmFlightDetailsResponse xmlns="http://stellatravelgateway.stellatravelservices.co.uk/AirService">
+			<ConfirmFlightDetailsResult Success="true" ErrorCode="0" ErrorDescription="" ResultItemID="98b507f9-712b-4f06-a025-444014cbb025" AdultGrossPrice="173.32000" AdultTax="260.450" AdultTotalPrice="433.77000" AdultCommission="17.33" ChildGrossPrice="139.9900" ChildTax="222.95" ChildTotalPrice="362.9400" ChildCommission="14.00" InfantGrossPrice="41.6600" InfantTax="69.25" InfantTotalPrice="110.9100" InfantCommission="4.17" SeatingSelectionPerPax="true" DOBRequired="false" APISRequired="false" SecureFlightInformationApplicable="false" SecureFlightInformationRequired="false" CreditCardPaymentRequired="false">
+				<MealOptions/>
+				<SeatingPreferences/>
+				<MinimumOptionalExtras/>
+				<OptionalExtras/>
+				<DefaultCreditCardCharge xsi:nil="true"/>
+				<CommissionFlatRate xsi:nil="true"/>
+				<CommissionPercentage>10</CommissionPercentage>
+				<PassengerPricingBreakdowns>
+					<PassengerPricingBreakdown Description="ADT" Nett="150.0000" Commission="16.67" Gross="166.67" Tax="297.95" Total="464.62">
+						<CommissionFlatRate xsi:nil="true"/>
+						<CommissionPercentage>10</CommissionPercentage>
+						<Count>1</Count>
+						<LocationItems/>
+						<IsOptionalExtra>false</IsOptionalExtra>
+					</PassengerPricingBreakdown>
+					<PassengerPricingBreakdown Description="ADT" Nett="150.0000" Commission="16.67" Gross="166.67" Tax="222.95" Total="389.62">
+						<CommissionFlatRate xsi:nil="true"/>
+						<CommissionPercentage>10</CommissionPercentage>
+						<Count>1</Count>
+						<LocationItems/>
+						<IsOptionalExtra>false</IsOptionalExtra>
+					</PassengerPricingBreakdown>
+					<PassengerPricingBreakdown Description="CHD" Nett="120.0000" Commission="13.33" Gross="133.33" Tax="222.95" Total="356.28">
+						<CommissionFlatRate xsi:nil="true"/>
+						<CommissionPercentage>10</CommissionPercentage>
+						<Count>1</Count>
+						<LocationItems/>
+						<IsOptionalExtra>false</IsOptionalExtra>
+					</PassengerPricingBreakdown>
+					<PassengerPricingBreakdown Description="INF" Nett="34.0000" Commission="3.78" Gross="37.78" Tax="69.25" Total="107.03">
+						<CommissionFlatRate xsi:nil="true"/>
+						<CommissionPercentage>10</CommissionPercentage>
+						<Count>1</Count>
+						<LocationItems/>
+						<IsOptionalExtra>false</IsOptionalExtra>
+					</PassengerPricingBreakdown>
+					<PassengerPricingBreakdown Description="ATOL FEE" Nett="2.5000" Commission="0.28" Gross="2.78" Tax="0" Total="2.78">
+						<CommissionFlatRate xsi:nil="true"/>
+						<CommissionPercentage>10</CommissionPercentage>
+						<Count>3</Count>
+						<LocationItems/>
+						<IsOptionalExtra>false</IsOptionalExtra>
+					</PassengerPricingBreakdown>
+					<PassengerPricingBreakdown Description="SAFI" Nett="3.4900" Commission="0.39" Gross="3.88" Tax="0" Total="3.88">
+						<CommissionFlatRate xsi:nil="true"/>
+						<CommissionPercentage>10</CommissionPercentage>
+						<Count>4</Count>
+						<LocationItems/>
+						<IsOptionalExtra>false</IsOptionalExtra>
+					</PassengerPricingBreakdown>
+				</PassengerPricingBreakdowns>
+			</ConfirmFlightDetailsResult>
+		</ConfirmFlightDetailsResponse>
+	</s:Body>
+</s:Envelope>

@@ -1,0 +1,26 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Header>
+		<AuthHeader xmlns="http://stellatravelgateway.stellatravelservices.co.uk">10ff9570-7ec0-4da8-a295-31c54aeb2951</AuthHeader>
+	</s:Header>
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<SearchTransfers xmlns="http://stellatravelgateway.stellatravelservices.co.uk/GroundService">
+			<transferSearch IsAttachedToHotelResult="true" AvailabilityType="ImmediateAndOnRequest">
+				<HotelResultSetID>46de2cd9-90f1-4e27-8d6e-5e1fa1ef6a48</HotelResultSetID>
+				<HotelResultItemID>0</HotelResultItemID>
+				<RoomResultItemID>0</RoomResultItemID>
+				<OriginPoint IATACode="">
+					<LocationCode xsi:nil="true"/>
+				</OriginPoint>
+				<DestinationPoint IATACode="">
+					<LocationCode xsi:nil="true"/>
+				</DestinationPoint>
+				<OutboundDate>2017-04-07T14:33:55</OutboundDate>
+				<InboundDate>2017-04-14T14:33:55</InboundDate>
+				<NoOfAdults xsi:nil="true"/>
+				<NoOfChildren xsi:nil="true"/>
+				<ChildAges/>
+				<SessionID>f839bf93-9937-42b7-b5d6-538273e7d398</SessionID>
+			</transferSearch>
+		</SearchTransfers>
+	</s:Body>
+</s:Envelope>

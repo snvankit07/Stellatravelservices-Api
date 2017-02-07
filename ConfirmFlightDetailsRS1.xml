@@ -1,0 +1,93 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ConfirmFlightDetailsResponse xmlns="http://stellatravelgateway.stellatravelservices.co.uk/AirService">
+         <ConfirmFlightDetailsResult Success="true" ErrorCode="0" ErrorDescription="" ResultItemID="1f3e91e5-453b-4cf3-9c88-e6ca2410ecf0" AdultGrossPrice="339.67000" AdultTax="325.670" AdultTotalPrice="665.34000" AdultCommission="33.97" ChildGrossPrice="258.6330" ChildTax="288.17" ChildTotalPrice="546.8030" ChildCommission="25.86" InfantGrossPrice="47.1810" InfantTax="43.67" InfantTotalPrice="90.8510" InfantCommission="4.72" SeatingSelectionPerPax="true" DOBRequired="false" APISRequired="false" SecureFlightInformationApplicable="false" SecureFlightInformationRequired="false" CreditCardPaymentRequired="false">
+            <DefaultCreditCardCharge xsi:nil="true"/>
+            <CommissionFlatRate xsi:nil="true"/>
+            <CommissionPercentage>10</CommissionPercentage>
+            <PassengerPricingBreakdowns>
+               <PassengerPricingBreakdown Description="ADT" Nett="299.7100" Commission="33.30" Gross="333.01" Tax="363.17" Total="696.18">
+                  <CommissionFlatRate xsi:nil="true"/>
+                  <CommissionPercentage>10</CommissionPercentage>
+                  <Count>1</Count>
+                  <LocationItems/>
+                  <IsOptionalExtra>false</IsOptionalExtra>
+               </PassengerPricingBreakdown>
+               <PassengerPricingBreakdown Description="ADT" Nett="299.7100" Commission="33.30" Gross="333.01" Tax="288.17" Total="621.18">
+                  <CommissionFlatRate xsi:nil="true"/>
+                  <CommissionPercentage>10</CommissionPercentage>
+                  <Count>1</Count>
+                  <LocationItems/>
+                  <IsOptionalExtra>false</IsOptionalExtra>
+               </PassengerPricingBreakdown>
+               <PassengerPricingBreakdown Description="CHD" Nett="226.7830" Commission="25.20" Gross="251.98" Tax="288.17" Total="540.15">
+                  <CommissionFlatRate xsi:nil="true"/>
+                  <CommissionPercentage>10</CommissionPercentage>
+                  <Count>1</Count>
+                  <LocationItems/>
+                  <IsOptionalExtra>false</IsOptionalExtra>
+               </PassengerPricingBreakdown>
+               <PassengerPricingBreakdown Description="INF" Nett="38.9710" Commission="4.33" Gross="43.30" Tax="43.67" Total="86.97">
+                  <CommissionFlatRate xsi:nil="true"/>
+                  <CommissionPercentage>10</CommissionPercentage>
+                  <Count>1</Count>
+                  <LocationItems/>
+                  <IsOptionalExtra>false</IsOptionalExtra>
+               </PassengerPricingBreakdown>
+               <PassengerPricingBreakdown Description="SAFI" Nett="3.4900" Commission="0" Gross="3.49" Tax="0" Total="3.49">
+                  <CommissionFlatRate xsi:nil="true"/>
+                  <CommissionPercentage xsi:nil="true"/>
+                  <Count>4</Count>
+                  <LocationItems/>
+                  <IsOptionalExtra>false</IsOptionalExtra>
+               </PassengerPricingBreakdown>
+               <PassengerPricingBreakdown Description="ATOL FEE" Nett="2.5000" Commission="0" Gross="2.50" Tax="0" Total="2.50">
+                  <CommissionFlatRate xsi:nil="true"/>
+                  <CommissionPercentage xsi:nil="true"/>
+                  <Count>3</Count>
+                  <LocationItems/>
+                  <IsOptionalExtra>false</IsOptionalExtra>
+               </PassengerPricingBreakdown>
+            </PassengerPricingBreakdowns>
+            <MealOptions>
+               <MealOption MealCode="AsianVegetarian" MealDescription="Asian Vegetarian"/>
+               <MealOption MealCode="BabyFood" MealDescription="Baby Food"/>
+               <MealOption MealCode="Bland" MealDescription="Bland"/>
+               <MealOption MealCode="ChefSalad" MealDescription="Chef Salad"/>
+               <MealOption MealCode="Chicken" MealDescription="Chicken"/>
+               <MealOption MealCode="Child" MealDescription="Child"/>
+               <MealOption MealCode="Diabetic" MealDescription="Diabetic"/>
+               <MealOption MealCode="FruitPlate" MealDescription="Fruit Plate"/>
+               <MealOption MealCode="FruitPlatter" MealDescription="Fruit Platter"/>
+               <MealOption MealCode="GlutenFree" MealDescription="Gluten Free"/>
+               <MealOption MealCode="HighFiber" MealDescription="High Fiber"/>
+               <MealOption MealCode="Hindu" MealDescription="Hindu"/>
+               <MealOption MealCode="Kosher" MealDescription="Kosher"/>
+               <MealOption MealCode="LactoOvoVegetarian" MealDescription="Lacto Ovo Vegetarian"/>
+               <MealOption MealCode="LowCalorie" MealDescription="Low Calorie"/>
+               <MealOption MealCode="LowCholesterlolAndFat" MealDescription="Low Cholesterlol And Fat"/>
+               <MealOption MealCode="LowProtein" MealDescription="Low Protein"/>
+               <MealOption MealCode="LowPurine" MealDescription="Low Purine"/>
+               <MealOption MealCode="LowSodium" MealDescription="Low Sodium"/>
+               <MealOption MealCode="Muslim" MealDescription="Muslim"/>
+               <MealOption MealCode="NoPreference" MealDescription="No Preference"/>
+               <MealOption MealCode="NonLactose" MealDescription="Non Lactose"/>
+               <MealOption MealCode="Oriental" MealDescription="Oriental"/>
+               <MealOption MealCode="RawVegetarian" MealDescription="Raw Vegetarian"/>
+               <MealOption MealCode="RegalFish" MealDescription="Regal Fish"/>
+               <MealOption MealCode="Seafood" MealDescription="Seafood"/>
+               <MealOption MealCode="Special" MealDescription="Special"/>
+               <MealOption MealCode="ToddlerMeal" MealDescription="Toddler Meal"/>
+               <MealOption MealCode="Vegetarian" MealDescription="Vegetarian"/>
+            </MealOptions>
+            <SeatingPreferences>
+               <SeatingPreference Code="Aisle" Description="Aisle"/>
+               <SeatingPreference Code="Window" Description="Window"/>
+            </SeatingPreferences>
+            <MinimumOptionalExtras/>
+            <OptionalExtras/>
+            <AvailableCreditCardCharges/>
+         </ConfirmFlightDetailsResult>
+      </ConfirmFlightDetailsResponse>
+   </s:Body>
+</s:Envelope>

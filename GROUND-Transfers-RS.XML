@@ -1,0 +1,31 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<SearchTransfersResponse xmlns="http://stellatravelgateway.stellatravelservices.co.uk/GroundService">
+			<SearchTransfersResult Success="true" CanBeOpenedInEditMode="false" ErrorCode="0" ResultSetID="b53b73a2-ba0c-466d-823d-11f53ec9f0b0">
+				<Transfers>
+					<Transfer ResultItemID="0" Mode="Boat" ExtendedDescription="Boat transfer return Boat - Return Transfer - 7 Apr 2017 - 14 Apr 2017 - (MUC)" ProviderResultID="78441" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="1234-0" SVCCode="78441-2306-32" Price="78.43" Currency="GBP" IsOnRequest="false" IsReturn="true">
+						<OperationalTimesNotes>These are some operational times</OperationalTimesNotes>
+						<ScheduleNotes>These are some scheduled notes.</ScheduleNotes>
+						<CommissionAmount xsi:nil="true"/>
+						<CommissionIsPercentage xsi:nil="true"/>
+						<CommissionRate xsi:nil="true"/>
+						<TransferDate>2017-04-07T00:00:00</TransferDate>
+						<TransferReturnDate>2017-04-14T00:00:00</TransferReturnDate>
+						<OriginPoint>
+							<LocationType>Airport</LocationType>
+							<LocationName>Munich Airport</LocationName>
+							<LocationId>3810</LocationId>
+							<IATA>MUC</IATA>
+						</OriginPoint>
+						<DestinationPoint>
+							<LocationType>Resort</LocationType>
+							<LocationName>Test location</LocationName>
+							<LocationId>2306</LocationId>
+							<IATA/>
+						</DestinationPoint>
+					</Transfer>
+				</Transfers>
+			</SearchTransfersResult>
+		</SearchTransfersResponse>
+	</s:Body>
+</s:Envelope>

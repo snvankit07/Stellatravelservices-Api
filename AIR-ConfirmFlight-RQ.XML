@@ -1,0 +1,18 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Header>
+		<AuthHeader xmlns="http://stellatravelgateway.stellatravelservices.co.uk">10ff9570-7ec0-4da8-a295-31c54aeb2951</AuthHeader>
+	</s:Header>
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<ConfirmFlightDetails xmlns="http://stellatravelgateway.stellatravelservices.co.uk/AirService">
+			<flightDetails SearchResultSetID="fffd65ca-b2a2-4470-9e0e-8704c7c3906f" SessionID="e754a6ad-71cb-4e15-b4fb-e5e360f6928b">
+				<ConfirmFlightDetailsResultItemID xsi:nil="true"/>
+				<FlightSelection ResultItemID="0">
+					<JourneySelections>
+						<JourneySelection JourneyID="0" OptionID="0"/>
+						<JourneySelection JourneyID="1" OptionID="3"/>
+					</JourneySelections>
+				</FlightSelection>
+			</flightDetails>
+		</ConfirmFlightDetails>
+	</s:Body>
+</s:Envelope>

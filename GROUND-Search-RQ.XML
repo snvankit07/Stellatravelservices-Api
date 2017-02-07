@@ -1,0 +1,18 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Header>
+		<AuthHeader xmlns="http://stellatravelgateway.stellatravelservices.co.uk">10ff9570-7ec0-4da8-a295-31c54aeb2951</AuthHeader>
+	</s:Header>
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<SearchHotels xmlns="http://stellatravelgateway.stellatravelservices.co.uk/GroundService">
+			<hotelSearch FlexiDays="0" Duration="7" CheckinDate="2017-04-07T00:00:00" ChildrenPerRoom="1" CityCode="61616161" NumberOfRooms="1" AvailabilityType="ImmediateAndOnRequest" CountryCode="6161" AdultsPerRoom="2" OrderType="PriceAscending">
+				<LocationCode xsi:nil="true"/>
+				<MinStarRating xsi:nil="true"/>
+				<MaxStarRating xsi:nil="true"/>
+				<BoardBasis xsi:nil="true"/>
+				<ChildAges/>
+				<MaxBudget xsi:nil="true"/>
+				<SessionID>dbc5e3c6-d5e7-486e-bda6-c17af3c2abb3</SessionID>
+			</hotelSearch>
+		</SearchHotels>
+	</s:Body>
+</s:Envelope>

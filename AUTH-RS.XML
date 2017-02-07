@@ -1,0 +1,10 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<AuthenticateResponse xmlns="http://stellatravelgateway.stellatravelservices.co.uk/DirectoryService">
+			<AuthenticateResult Success="true" Narrative="Welcome An API User" CanBeOpenedInEditMode="false" ErrorCode="0">
+				<Token>10ff9570-7ec0-4da8-a295-31c54aeb2951</Token>
+				<Expiry>2016-08-18T09:48:00.008884+01:00</Expiry>
+			</AuthenticateResult>
+		</AuthenticateResponse>
+	</s:Body>
+</s:Envelope>

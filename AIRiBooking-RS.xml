@@ -1,0 +1,104 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <BookResponse xmlns="http://stellatravelgateway.stellatravelservices.co.uk/AirService">
+            <BookResult Success="true" ErrorCode="0" ErrorDescription="" BookingRef="28HWWA" Response="Confirmed" TotalGross="54.63" TotalTax="1068.3" TotalCommission="3.66" TotalVAT="0" Total="1120.4300" BookingMadeAsDeposit="false">
+                <AirlineLocators>
+                    <AirlineLocator Locator="SQNQSG">
+                        <Airline Code="TK" AirlineName="Turkish Airlines" ID="0"/>
+                    </AirlineLocator>
+                </AirlineLocators>
+                <PassengerCosts>
+                    <PassengerPricing Passenger="ADULT" TotalCommission="1.22" TotalGross="18.2100" TotalTax="376" PassengerTotal="394.2100">
+                        <PassengerPricingBreakdowns>
+                            <PassengerPricingBreakdown Description="FARE" Nett="11.0000" Commission="1.22" Gross="12.22" Tax="376" Total="388.22">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage>10</CommissionPercentage>
+                                <Count xsi:nil="true"/>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                            <PassengerPricingBreakdown Description="SAFI" Nett="3.4900" Commission="0" Gross="3.49" Tax="0" Total="3.49">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage xsi:nil="true"/>
+                                <Count>1</Count>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                            <PassengerPricingBreakdown Description="ATOL FEE" Nett="2.5000" Commission="0" Gross="2.50" Tax="0" Total="2.50">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage xsi:nil="true"/>
+                                <Count>1</Count>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                        </PassengerPricingBreakdowns>
+                    </PassengerPricing>
+                    <PassengerPricing Passenger="ADULT" TotalCommission="1.22" TotalGross="18.2100" TotalTax="376" PassengerTotal="394.2100">
+                        <PassengerPricingBreakdowns>
+                            <PassengerPricingBreakdown Description="FARE" Nett="11.0000" Commission="1.22" Gross="12.22" Tax="376" Total="388.22">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage>10</CommissionPercentage>
+                                <Count xsi:nil="true"/>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                            <PassengerPricingBreakdown Description="SAFI" Nett="3.4900" Commission="0" Gross="3.49" Tax="0" Total="3.49">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage xsi:nil="true"/>
+                                <Count>1</Count>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                            <PassengerPricingBreakdown Description="ATOL FEE" Nett="2.5000" Commission="0" Gross="2.50" Tax="0" Total="2.50">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage xsi:nil="true"/>
+                                <Count>1</Count>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                        </PassengerPricingBreakdowns>
+                    </PassengerPricing>
+                    <PassengerPricing Passenger="CHILD" TotalCommission="1.22" TotalGross="18.2100" TotalTax="301" PassengerTotal="319.2100">
+                        <PassengerPricingBreakdowns>
+                            <PassengerPricingBreakdown Description="FARE" Nett="11.0000" Commission="1.22" Gross="12.22" Tax="301" Total="313.22">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage>10</CommissionPercentage>
+                                <Count xsi:nil="true"/>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                            <PassengerPricingBreakdown Description="SAFI" Nett="3.4900" Commission="0" Gross="3.49" Tax="0" Total="3.49">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage xsi:nil="true"/>
+                                <Count>1</Count>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                            <PassengerPricingBreakdown Description="ATOL FEE" Nett="2.5000" Commission="0" Gross="2.50" Tax="0" Total="2.50">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage xsi:nil="true"/>
+                                <Count>1</Count>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                        </PassengerPricingBreakdowns>
+                    </PassengerPricing>
+                    <PassengerPricing Passenger="INFANT" TotalCommission="0" TotalGross="-0.5200" TotalTax="15.3" PassengerTotal="14.7800">
+                        <PassengerPricingBreakdowns>
+                            <PassengerPricingBreakdown Description="FARE" Nett="0" Commission="0" Gross="0" Tax="15.3" Total="15.3">
+                                <CommissionFlatRate xsi:nil="true"/>
+                                <CommissionPercentage>10</CommissionPercentage>
+                                <Count xsi:nil="true"/>
+                                <LocationItems/>
+                                <IsOptionalExtra>false</IsOptionalExtra>
+                            </PassengerPricingBreakdown>
+                        </PassengerPricingBreakdowns>
+                    </PassengerPricing>
+                </PassengerCosts>
+                <CRMResponse Success="true" CanBeOpenedInEditMode="false" ErrorCode="0" CRMBookingRef="8751680"/>
+                <BookingSource>Galileo</BookingSource>
+                <ConsumerBookingRef>testbookingnumber</ConsumerBookingRef>
+            </BookResult>
+        </BookResponse>
+    </s:Body>
+</s:Envelope>

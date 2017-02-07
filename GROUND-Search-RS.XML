@@ -1,0 +1,58 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<SearchHotelsResponse xmlns="http://stellatravelgateway.stellatravelservices.co.uk/GroundService">
+			<SearchHotelsResult Success="true" CanBeOpenedInEditMode="false" ErrorCode="0" ResultSetID="e96f3a9d-7de9-4044-9f77-b2909d7b544e" ProviderAvailabilityResultID="5bdf6a46-a40a-4565-b859-d3559ccbb90e" PreBookingMessage="http://pts.sta.man01.stsuk-dc.net/TritonRoomsWSTest/accommodationserviceV2.svc (DEV)" isTOMS="false">
+				<Hotels>
+					<Hotel HotelResultItemID="0" HotelID="258227" Name="THIS IS a TEST HOTEL - 1" CountryName="Test Country" CountryCode="6161" CityName="TEST city" CityCode="61616161" LocationName="Test location" Category="3 star superior" Summary="New description blah blah blah" Priority="0" IsFavourite="false" HotelChain="" HasErrata="false" HasOffer="false" Latitude="" Longitude="" IsVilla="true">
+						<LocationCode>2306</LocationCode>
+						<StarRating>3.5</StarRating>
+						<Images>
+							<string>http://www.tritonrooms.com/hotelimages/ptstestimage3.jpg</string>
+						</Images>
+						<Rooms>
+							<Room RoomResultItemID="0" Title="Standard Room" BoardBasisDescription="Bed &amp; Breakfast" MealPlanDescription="Bed &amp; Breakfast" IsOnRequest="false" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Standard Room" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="2909127-0" SupplierName="Local" ServiceCode="2909-1-27-DBLC-1-2-1-2-0-0-0" Priority="0" Currency="GBP" Total="933.39" IsPrivateTransfersOnly="true">
+								<BoardBasis>BedAndBreakfast</BoardBasis>
+							</Room>
+							<Room RoomResultItemID="1" Title="Standard Room" BoardBasisDescription="Half Board" MealPlanDescription="Half Board" IsOnRequest="false" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Standard Room" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="2909227-0" SupplierName="Local" ServiceCode="2909-2-27-DBLC-1-2-1-2-0-0-0" Priority="0" Currency="GBP" Total="1189.59" IsPrivateTransfersOnly="true">
+								<BoardBasis>HalfBoard</BoardBasis>
+							</Room>
+							<Room RoomResultItemID="2" Title="Standard Room" BoardBasisDescription="Full Board" MealPlanDescription="Full Board" IsOnRequest="false" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Standard Room" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="2909327-0" SupplierName="Local" ServiceCode="2909-3-27-DBLC-1-2-1-2-0-0-0" Priority="0" Currency="GBP" Total="1445.82" IsPrivateTransfersOnly="true">
+								<BoardBasis>FullBoard</BoardBasis>
+							</Room>
+							<Room RoomResultItemID="3" Title="Standard Room" BoardBasisDescription="All Inclusive" MealPlanDescription="All Inclusive" IsOnRequest="false" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Standard Room" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="2909527-0" SupplierName="Local" ServiceCode="2909-5-27-DBLC-1-2-1-2-0-0-0" Priority="0" Currency="GBP" Total="2013.15" IsPrivateTransfersOnly="true">
+								<BoardBasis>AllInclusive</BoardBasis>
+							</Room>
+							<Room RoomResultItemID="4" Title="Standard Room" BoardBasisDescription="Bed &amp; Breakfast" MealPlanDescription="Bed &amp; Breakfast" IsOnRequest="false" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Standard Room" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="2909127-0" SupplierName="Local" ServiceCode="2909-1-27-TRI-1-3-0-0-0-0-0" Priority="0" Currency="GBP" Total="1283.40" IsPrivateTransfersOnly="true">
+								<BoardBasis>BedAndBreakfast</BoardBasis>
+							</Room>
+							<Room RoomResultItemID="5" Title="Standard Room" BoardBasisDescription="Half Board" MealPlanDescription="Half Board" IsOnRequest="false" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Standard Room" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="2909227-0" SupplierName="Local" ServiceCode="2909-2-27-TRI-1-3-0-0-0-0-0" Priority="0" Currency="GBP" Total="1635.60" IsPrivateTransfersOnly="true">
+								<BoardBasis>HalfBoard</BoardBasis>
+							</Room>
+							<Room RoomResultItemID="6" Title="Standard Room" BoardBasisDescription="Full Board" MealPlanDescription="Full Board" IsOnRequest="false" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Standard Room" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="2909327-0" SupplierName="Local" ServiceCode="2909-3-27-TRI-1-3-0-0-0-0-0" Priority="0" Currency="GBP" Total="1988.07" IsPrivateTransfersOnly="true">
+								<BoardBasis>FullBoard</BoardBasis>
+							</Room>
+							<Room RoomResultItemID="7" Title="Standard Room" BoardBasisDescription="All Inclusive" MealPlanDescription="All Inclusive" IsOnRequest="false" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Standard Room" HotelID="PX3JLFRCM5EH8NAFGWMSHTE0MA500439" SupplierCode="2909527-0" SupplierName="Local" ServiceCode="2909-5-27-TRI-1-3-0-0-0-0-0" Priority="0" Currency="GBP" Total="2390.52" IsPrivateTransfersOnly="true">
+								<BoardBasis>AllInclusive</BoardBasis>
+							</Room>
+						</Rooms>
+					</Hotel>
+					<Hotel HotelResultItemID="1" HotelID="223466" Name="This is a Test Hotel -2" CountryName="Test Country" CountryCode="6161" CityName="TEST city" CityCode="61616161" LocationName="Test location" Category="2 Star" Summary="*** THIS IS NOT A REAL HOTEL ***" Priority="6" IsFavourite="true" FavouriteNarrative="If you are Punctilious you will appreciate this fine hotel." HotelChain="" HasErrata="false" HasOffer="false" Latitude="" Longitude="">
+						<LocationCode>2306</LocationCode>
+						<StarRating>2</StarRating>
+						<Images>
+							<string>http://www.tritonrooms.com/hotelimages/DONTBOOKME.JPG</string>
+						</Images>
+						<Rooms>
+							<Room RoomResultItemID="0" Title="Premier Garden View Room -- Early Bird Offer 45 days" BoardBasisDescription="Half Board" MealPlanDescription="Half Board" IsOnRequest="true" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Premier Garden View Room -- Early Bird Offer 45 days" HotelID="K6DSSNHPBKQ49P1FASPS23KVTA500439" SupplierCode="81474227-0" SupplierName="Local" ServiceCode="81474-2-27-DBLC-1-2-1-2-0-0-0" Priority="4" Currency="GBP" Total="2021.40">
+								<BoardBasis>HalfBoard</BoardBasis>
+							</Room>
+							<Room RoomResultItemID="1" Title="Premier Garden View Room -- Early Bird Offer 45 days" BoardBasisDescription="Half Board" MealPlanDescription="Half Board" IsOnRequest="true" HasErrata="false" HasOffer="false" IsFavourite="false" Type="Premier Garden View Room -- Early Bird Offer 45 days" HotelID="K6DSSNHPBKQ49P1FASPS23KVTA500439" SupplierCode="81474227-0" SupplierName="Local" ServiceCode="81474-2-27-TRI-1-3-0-0-0-0-0" Priority="4" Currency="GBP" Total="2608.26">
+								<BoardBasis>HalfBoard</BoardBasis>
+							</Room>
+						</Rooms>
+					</Hotel>
+				</Hotels>
+			</SearchHotelsResult>
+		</SearchHotelsResponse>
+	</s:Body>
+</s:Envelope>

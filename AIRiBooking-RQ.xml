@@ -1,0 +1,45 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Header>
+        <AuthHeader xmlns="http://stellatravelgateway.stellatravelservices.co.uk">b1900a3a-6706-4efd-a406-81befb912b97</AuthHeader>
+    </s:Header>
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <Book xmlns="http://stellatravelgateway.stellatravelservices.co.uk/AirService">
+            <bookFlightDetails ConfirmFlightDetailsResultItemID="f376d7f6-25a3-4e22-b706-0b3585884cf8" SessionID="e754a6ad-71cb-4e15-b4fb-e5e360f6928b" BookingOperation="Book">
+                <PassengerDetail>
+                    <PassengerDetail Title="Mr" PassengerType="Child" FirstName="Ankit" MiddleName="" LastName="Kucci" IsLeadPassenger="false" RedressNumber="" Disabled="false" MealText="" FrequentFlyerNumber="" SeatingPreferenceCode="" MealCode="" NoMiddleNameConfirmed="false">
+                        <DateOfBirth>2010-11-11T11:14:10</DateOfBirth>
+                        <Sex>Male</Sex>
+                        <PassportExpiry xsi:nil="true"/>
+                    </PassengerDetail>
+                                                                                
+                    <PassengerDetail Title="Mr" PassengerType="Adult" FirstName="Arpit" MiddleName="" LastName="Kucci" IsLeadPassenger="true" RedressNumber="" Disabled="false" MealText="" FrequentFlyerNumber="" SeatingPreferenceCode="" MealCode="" NoMiddleNameConfirmed="false">
+                        <DateOfBirth>1986-11-11T11:14:10</DateOfBirth>
+                        <Sex>Male</Sex>
+                        <PassportExpiry xsi:nil="true"/>
+                    </PassengerDetail>
+                                                                                
+                    <PassengerDetail Title="Mr" PassengerType="Adult" FirstName="Amit" MiddleName="" LastName="Kucci" IsLeadPassenger="false" RedressNumber="" Disabled="false" MealText="" FrequentFlyerNumber="" SeatingPreferenceCode="" MealCode="" NoMiddleNameConfirmed="false">
+                        <DateOfBirth>1998-11-11T11:14:10</DateOfBirth>
+                        <Sex>Male</Sex>
+                        <PassportExpiry xsi:nil="true"/>
+                    </PassengerDetail>
+
+                    <PassengerDetail Title="Mr" PassengerType="InfantWithoutSeat" FirstName="Rahul" MiddleName="" LastName="Kucci" IsLeadPassenger="false" RedressNumber="" Disabled="false" MealText="" FrequentFlyerNumber="" SeatingPreferenceCode="" MealCode="" NoMiddleNameConfirmed="false">
+                        <DateOfBirth>2016-06-10T11:14:10</DateOfBirth>
+                        <Sex>Male</Sex>
+                        <PassportExpiry xsi:nil="true"/>
+                    </PassengerDetail>
+
+                </PassengerDetail>
+                <ConfirmationEmailAddresses>
+                    <string/>
+                </ConfirmationEmailAddresses>
+                <CRMDetails CRMBookingRef="">
+                    <MakeBookingAsDeposit>false</MakeBookingAsDeposit>
+                </CRMDetails>
+                <ConsumerBookingRef>testbookingnumber</ConsumerBookingRef>
+                <SecureFlightInformationApplicable>false</SecureFlightInformationApplicable>
+            </bookFlightDetails>
+        </Book>
+    </s:Body>
+</s:Envelope>

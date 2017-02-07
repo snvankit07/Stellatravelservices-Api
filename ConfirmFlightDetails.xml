@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:air="http://stellatravelgateway.stellatravelservices.co.uk/AirService">
+   <soapenv:Header><AuthHeader xmlns="http://stellatravelgateway.stellatravelservices.co.uk">aae389e4-6c54-4dfd-a10f-c62cef19b25b</AuthHeader></soapenv:Header>
+   <soapenv:Body>
+      <air:ConfirmFlightDetails>
+         <!--Optional:-->
+         <air:flightDetails SearchResultSetID="d4ea3334-6b2b-439b-93bb-dc18ae971666" SessionID="29521055-ab79-412f-b6d6-c24d5a8a8faa">
+            <!--Optional:-->
+            
+            <air:ConfirmFlightDetailsResultItemID xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <!--Optional:-->
+            <air:FlightSelection ResultItemID="0">
+               <!--Optional:-->
+               <air:JourneySelections>
+                  <!--Zero or more repetitions:-->
+                  <air:JourneySelection JourneyID="0" OptionID="0"/>
+               </air:JourneySelections>
+            </air:FlightSelection>
+         <air:ClientIPAddress>000.000.0.0</air:ClientIPAddress></air:flightDetails>
+      </air:ConfirmFlightDetails>
+   </soapenv:Body>
+</soapenv:Envelope>
